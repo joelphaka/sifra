@@ -1,8 +1,8 @@
-##Sifra - Simple Framework
+# Sifra - Simple Framework
 
-###How to get started
+## How to get started
 
-For a quick testing of the demo
+For a quick testing of the demo:
 
 - Add database credentials in the .env file
 - Add a table named users (id, first_name, last_name, email) with auto incremented id
