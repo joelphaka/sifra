@@ -1,0 +1,205 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+.container#mainContainer,
+.container-fluid#mainContainer {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.navbar.navbar-fixed-top + .container#mainContainer,
+.navbar.navbar-fixed-top + .container-fluid#mainContainer {
+    margin-top: 71px;
+}
+
+.navbar.navbar-fixed-top + .container.edge#mainContainer,
+.navbar.navbar-fixed-top + .container-fluid.edge#mainContainer {
+    margin-top: 51px;
+}
+
+#loginForm > .form-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 384px;
+    float: none !important;
+}
+
+#loginForm > .form-content h1.main-header, h2.main-header {
+    font-variant: small-caps;
+    /*padding-top: 25px;*/
+}
+
+.error {
+    color: #a94442;
+}
+
+.image-icon {
+    display: block;
+    width: 52px;
+    height: 52px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.image-icon > .glyphicon {
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.image-icon.sm-icon {
+    width: 34px;
+    height: 34px;
+}
+
+.image-icon.sm-icon > .glyphicon {
+    font-size: 18px;
+}
+
+.image-icon.xs-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.image-icon.xs-icon > .glyphicon {
+    font-size: 14px;
+}
+
+@media (max-width: 640px) {
+    #loginForm > .form-content {
+        max-width: none;
+    }
+}
+
+/*POSITION*/
+*.position-relative { position: relative;}
+
+*.position-absolute { position: absolute;}
+
+*.position-fixed { position: fixed;}
+
+*.position-static { position: static;}
+
+/*MARGINS*/
+.margin-top-0 { margin-bottom: 0}
+
+.margin-bottom-0 { margin-bottom: 0;}
+
+.margin-top-2 { margin-top: 2px;}
+
+.margin-bottom-2 { margin-bottom: 2px;}
+
+.margin-top-3 { margin-top: 3px;}
+
+.margin-bottom-3 { margin-bottom: 3px;}
+
+.margin-top-4 { margin-top: 4px;}
+
+.margin-bottom-4 { margin-bottom: 4px;}
+
+.margin-top-5 { margin-top: 5px;}
+
+.margin-bottom-5 { margin-bottom: 5px;}
+
+.margin-top-8 { margin-top: 8px;}
+
+.margin-bottom-8 { margin-bottom: 8px;}
+
+.margin-top-10 { margin-top: 10px;}
+
+.margin-bottom-10 { margin-bottom: 10px;}
+
+.margin-top-15 { margin-top: 15px;}
+
+.margin-bottom-15 { margin-bottom: 15px;}
+
+.margin-top-20 { margin-top: 20px;}
+
+.margin-bottom-20 { margin-bottom: 20px;}
+
+.margin-top-25 { margin-top: 25px;}
+
+.margin-bottom-25 { margin-bottom: 25px;}
+
+.margin-top-30 { margin-top: 30px;}
+
+.margin-bottom-30 { margin-bottom: 30px;}
+
+.margin-top-35 { margin-top: 35px;}
+
+.margin-bottom-35 { margin-bottom: 35px;}
+
+.margin-top-40 { margin-top: 40px;}
+
+.margin-bottom-40 { margin-bottom: 40px;}
+
+.margin-top-45 { margin-top: 45px;}
+
+.margin-bottom-45 { margin-bottom: 45px;}
+
+.margin-top-50 { margin-top: 50px;}
+
+.margin-bottom-50 { margin-bottom: 50px;}
+
+.margin-top-55 { margin-top: 55px;}
+
+.margin-bottom-55 { margin-bottom: 55px;}
+
+.margin-top-60 { margin-top: 60px;}
+
+.margin-bottom-60 { margin-bottom: 60px;}
+
+/*PADDING*/
+.padding-0 { padding: 0;}
+
+.padding-5 { padding: 5px;}
+
+.padding-10 { padding: 10px;}
+
+.padding-15 { padding: 15px;}
+
+.padding-20 { padding: 20px;}
+
+.padding-25 { padding: 25px;}
+
+.padding-30 { padding: 30px;}
+
+/*FIXED*/
+.fixed-right-0 { right: 0;}
+
+.fixed-right-5 { right: 5px;}
+
+.fixed-right-10 { right: 10px;}
+
+.fixed-right-15 { right: 15px;}
+
+.fixed-right-20 { right: 20px;}
+
+.fixed-right-25 { right: 25px;}
+
+.fixed-right-30 { right: 30px;}
+
+.fixed-left-0 { left: 0;}
+
+.fixed-left-5 { left: 5px;}
+
+.fixed-left-10 { left: 10px;}
+
+.fixed-left-15 { left: 15px;}
+
+.fixed-left-20 { left: 20px;}
+
+.fixed-left-25 { left: 25px;}
+
+.fixed-left-30 { left: 30px;}
